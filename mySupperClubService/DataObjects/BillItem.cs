@@ -4,8 +4,12 @@ namespace mySupperClubService.DataObjects
 {
     public class BillItem : EntityData
     {
-        public string LocationName { get; set; }
+        public string Name { get; set; }
+
+        public decimal Cost { get; set; }
 
         public string EventId { get; set; }
+
+        public string UserId { get; set; }
     }
 }
